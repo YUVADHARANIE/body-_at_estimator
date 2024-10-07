@@ -5,7 +5,7 @@ import joblib
 
 # Load the saved scaler and model
 scaler = joblib.load('scaler.pkl')  # Make sure to save this earlier in your code
-model = joblib.load('lasso_bodyfat_model.pkl')  # Ensure this is saved
+model = joblib.load('random_forest_bodyfat_model.pkl')  # Ensure this is saved
 
 # Function to categorize body fat percentage
 def categorize_body_fat(bfp, gender):
